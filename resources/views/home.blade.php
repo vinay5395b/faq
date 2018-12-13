@@ -1,6 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
+    <head>
+        <script type="text/javascript">
+            /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+            (function(d, m){
+                var kommunicateSettings = {"appId":"1d7620ff69169e0e084616cc52611bf4b","botIds":["Jarvis"],"conversationTitle":"FAQ Bot"};
+                var s = document.createElement("script"); s.type = "text/javascript"; s.async = false;
+                s.src = "https://api.kommunicate.io/kommunicate.app";
+                var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+                window.kommunicate = m; m._globals = kommunicateSettings;
+            })(document, window.kommunicate || {});
+        </script>
+    </head>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">

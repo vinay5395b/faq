@@ -1,12 +1,14 @@
 #faq Chatbot with Dialogflow
 
-1. As a user, I can start a conversation with the faq chatbot.
+1. As a user, I can register and login so that I can click on the chat icon and start a conversation with the faq chatbot.
 2. As a user, I want to ask the chatbot for information about different programming languages like php and javascript (limited to only these two at present).
 3. As a user, I want to ask about installation for programming languages and Laravel framework, so that the chatbot can give links to the websites for installation guides.
 4. As a user, I want to get information about the chatbot by asking a question like 'who are you?', so that the chatbot gives information about itself.
 5. As a user, I can ask the chatbot for knock knock jokes, so that the bot engages the user in a knock knock joke.
 6. As a user, I want to greet the chatbot, so that it greets me back.
 7. As a user, if I ask the chat bot any question not defined in it's learning algorithm, it will reply with a negative reply like 'Say that one more time?'.
+
+Heroku link: https://miniproj-3.herokuapp.com/
 
 ##Sample conversation
 sampleconvo
